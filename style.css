@@ -78,10 +78,10 @@ footer p { margin: 0; }
   footer { padding: 20px 0; align-items: flex-start; flex-direction: column; }
         }
 .profile-photo {
-  width: 100px !important;
-  height: 100px !important;
-  max-width: 100px !important;
-  max-height: 100px !important;
+  width: 10px !important;
+  height: 10px !important;
+  max-width: 10px !important;
+  max-height: 10px !important;
   object-fit: cover;
   border-radius: 50%;
   display: block;
