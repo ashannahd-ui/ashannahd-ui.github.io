@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --ink: #17202b;
-  --muted: #657184;
-  --purple: #7057e8;
-  --purple-dark: #5940cf;
+  --ink: #f5f2ff;
+  --muted: #c4bddb;
+  --purple: #b794ff;
+  --purple-dark: #7c3aed;
   --lavender: #f0edff;
   --line: #e8eaf0;
   --black: #ffffff;
