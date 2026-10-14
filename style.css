@@ -87,34 +87,7 @@ footer p { margin: 0; }
   display: block;
   margin: 12px 0;
 }
-/* PURPLE GLOW DESIGN UPGRADE */
 
-body {
-background-color: #080811;
-color: #f5f2ff;
-}
-
-h1, h2, h3 {
-text-shadow: 0 0 16px rgba(168, 85, 247, 0.25);
-}
-
-a, button {
-transition: all 0.3s ease;
-}
-
-a:hover, button:hover {
-box-shadow: 0 0 18px rgba(168, 85, 247, 0.4);
-}
-
-.project-card {
-border: 1px solid rgba(168, 85, 247, 0.3);
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 0 22px rgba(139, 92, 246, 0.2);
-}
 /* FIX PALE AND INVISIBLE TEXT */
 
 body {
