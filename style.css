@@ -115,3 +115,48 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 transform: translateY(-4px);
 box-shadow: 0 0 22px rgba(139, 92, 246, 0.2);
 }
+/* FIX PALE AND INVISIBLE TEXT */
+
+body {
+color: #f5f2ff;
+}
+
+/* Make all main headings clearly visible */
+h1, h2, h3, h4, h5, h6 {
+color: #f5f2ff;
+opacity: 1;
+}
+
+/* Fix faded introductory text */
+.hero h1,
+.hero h1 span {
+opacity: 1;
+text-shadow: 0 0 12px rgba(168, 85, 247, 0.2);
+}
+
+/* Make descriptions readable */
+p {
+color: #d6d0e8;
+opacity: 1;
+}
+
+/* Ensure the hero section has a dark background */
+.hero {
+background-color: #0d0b18;
+}
+
+/* Keep the purple name visible */
+.gradient-text {
+color: #b794ff;
+-webkit-text-fill-color: #b794ff;
+opacity: 1;
+}
+
+/* Keep the photo small */
+.profile-photo {
+width: 100px !important;
+height: 100px !important;
+max-width: 100px !important;
+max-height: 100px !important;
+object-fit: cover;
+border-radius: 50%;
