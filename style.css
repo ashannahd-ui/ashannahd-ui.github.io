@@ -152,4 +152,21 @@ width: 100px !important;
 height: 100px !important;
 object-fit: cover;
 border-radius: 50%;
+}.card {
+  color: #1a1a2e;
+}
+
+.card h3,
+.card .card-title {
+  color: #1a1a2e;
+  font-weight: 600;
+}
+
+.card p {
+  color: #3d3d56;
+}
+
+.card .number,
+.card .card-number {
+  color: #6d4fd6;
 }
