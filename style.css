@@ -132,4 +132,66 @@ height: 100px !important;
 max-width: 100px !important;
 max-height: 100px !important;
 object-fit: cover;
+border-radius: 50%;}
+/* FINAL DARK PURPLE THEME FIX */
+
+body {
+background: #090713 !important;
+color: #f5f2ff !important;
+}
+
+.hero {
+background: #090713 !important;
+color: #f5f2ff !important;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero .eyebrow,
+.hero .intro,
+.hero p,
+.hero-card,
+.hero-card h2,
+.hero-card p,
+.hero-card .card-label {
+opacity: 1 !important;
+}
+
+.hero h1 {
+color: #f5f2ff !important;
+-webkit-text-fill-color: #f5f2ff !important;
+}
+
+.hero h1 span,
+.brand span {
+color: #b794ff !important;
+-webkit-text-fill-color: #b794ff !important;
+}
+
+.hero .eyebrow,
+.hero .intro,
+.hero-card p,
+.hero-card .card-label {
+color: #d8d0ea !important;
+-webkit-text-fill-color: #d8d0ea !important;
+}
+
+.hero-card {
+background: #171326 !important;
+border: 1px solid #493568 !important;
+color: #f5f2ff !important;
+box-shadow: 0 0 24px rgba(168, 85, 247, 0.12);
+}
+
+.hero-card h2 {
+color: #f5f2ff !important;
+-webkit-text-fill-color: #f5f2ff !important;
+}
+
+.profile-photo {
+width: 100px !important;
+height: 100px !important;
+object-fit: cover;
 border-radius: 50%;
+}
